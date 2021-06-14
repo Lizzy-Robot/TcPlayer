@@ -1,9 +1,9 @@
 {
-    "name": "TcPlayerBot",
+    "name": "QueenMusic",
     "logo": "https://telegra.ph/file/da795693dfa771c9b8837.jpg",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["music", "voicechat", "telegram"],
-    "repository": "https://github.com/tcBots/TcPlayer",
+    "repository": "https://github.com/Lizzy-Robot/TcPlayer",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
