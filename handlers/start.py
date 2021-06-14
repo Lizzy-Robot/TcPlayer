@@ -9,12 +9,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAECAAG0YLzhW0U6I8RVSoiIk-BzvF7L7roAAqIDAAJRteFV9AHgzAim6xIfBA")
+    await message.reply_sticker("CAACAgUAAx0CVUFv6wABBQXdYMc3pDJxmweJ_HpT-u8tj-2TQncAAi4CAAIeQzhWEKTMFGmT2u4fBA")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nThis is a VC Music Bot which can play music in your group's Voice Chat.
-Powered By @Tc_Bots 
-\nTo get started simply add me to your group and make me admin. Also do not forget to add my assistant bot @TcPlayer to your group.
+Powered By @Bakchodi_Squad
+\nTo get started simply add me to your group and make me admin with full rights
 \nHit /help list of available commands.
 <\b>""",
       
@@ -23,23 +23,23 @@ Powered By @Tc_Bots
             [
                 [
                     InlineKeyboardButton(
-                        "Cʀᴇᴅɪᴛ", url="https://t.me/tcsupporter",
+                        "ᴀssɪsᴛᴀɴᴛ", url="https://t.me/Raksha_op",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Gʀᴏᴜᴘ", url="https://t.me/Tcbotsbugs"
+                        "sᴜᴘᴘᴏʀᴛ", url="https://t.me/Bakchodi_Squad"
                     ),
                     InlineKeyboardButton(
-                        "Cʜᴀɴɴᴇʟ", url="https://t.me/tc_bots"
+                        "ᴄʜᴀᴛᴛɪɴɢ", url="https://t.me/god_of_loll"
                     ),
                     InlineKeyboardButton(
-                        "Sᴏᴜʀᴄᴇ", url="https://github.com/tcbots/TcPlayer"
+                        "Sᴏᴜʀᴄᴇ", url="https://telegra.ph/file/6d661cc458396796f4692.jpg"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Aᴅᴅ Mᴇ", url="https://t.me/TcPlayerBot?startgroup=true"
+                        "Aᴅᴅ Mᴇ", url="https://t.me/QueenMusic_Robot?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,10 +58,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Cʜᴀɴɴᴇʟ", url="https://t.me/tc_bots"
+                        "ᴏᴡɴᴇʀ", url="https://t.me/Lover_xd"
                     ),
                     InlineKeyboardButton(
-                        "Gʀᴏᴜᴘ", url="https://t.me/tcbotsbugs"
+                        "sᴜᴘᴘᴏʀᴛ", url="https://t.me/Bakchodi_Squad"
                     )
                 ],    
                 [    
